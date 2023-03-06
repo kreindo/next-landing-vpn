@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Asdf = () => {
+const Courses = () => {
   return (
     <div className="py-20 container mx-auto">
       <div className="flex items-center justify-center">
@@ -66,4 +66,4 @@ const Asdf = () => {
   );
 };
 
-export default Asdf;
+export default Courses;

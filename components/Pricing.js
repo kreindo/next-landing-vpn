@@ -179,7 +179,7 @@ const Pricing = () => {
           </div>
         </div>
         <div className="flex flex-col w-full my-16">
-          <ScrollAnimationWrapper>
+          {/* <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto"
@@ -201,7 +201,7 @@ const Pricing = () => {
             >
               <Maps className="w-full h-auto" />
             </motion.div>
-          </ScrollAnimationWrapper>
+          </ScrollAnimationWrapper> */}
           <ScrollAnimationWrapper>
             <motion.div
               className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
@@ -242,14 +242,13 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
             >
-              Trusted by Thousands of Happy Customer{' '}
+              Testimoni{' '}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
-              These are the stories of our customers who have joined us with
-              great pleasure when using this crazy feature.
+              Berikut testimoni dari peserta lulusan kursus kami.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full flex flex-col py-12">
